@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SemiJoin": {
+      "commandName": "Project",
+      "commandLineArgs": "./data.json"
+    }
+  }
+}
