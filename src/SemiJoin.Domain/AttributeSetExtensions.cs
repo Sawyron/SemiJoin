@@ -36,7 +36,7 @@ public static class AttributeSetExtensions
     public static string ToPrintableSting(this AttributeSet attributeSet) =>
         attributeSet switch
         {
-            InfiniteAttributeSet => "∞",
+            InfiniteAttributeSet => "inf",
             FiniteAttributeSet set when set.Attributes.Count == 0 => "0",
             FiniteAttributeSet set => string.Join('+', set.Attributes),
             _ => throw new InvalidOperationException("Unexpected AttributeSet type")
