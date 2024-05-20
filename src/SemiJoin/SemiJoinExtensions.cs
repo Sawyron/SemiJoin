@@ -48,5 +48,5 @@ public static class SemiJoinExtensions
             sb.AppendLine();
         }
         return sb.ToString();
-    } 
+    }
 }
